@@ -17,7 +17,16 @@ public final class Constants {
     public static final int driverID = 0;
   }
 
-  public static final int CIM_MOTOR_ID = 1;
-  public static final int FALCON_MOTOR_ID = 2;
-  public static final int NEO_MOTOR_ID = 3;
+  // Motor IDs
+  /**
+   * Motor ID Constants
+   */
+  public static class MotorIDs {
+    /** CIM Motor ID */
+    public static final int cimMotorID = 1;
+    /** Falcon Motor ID */
+    public static final int falconMotorID = 2;
+    /** Neo Motor ID */
+    public static final int neoMotorID = 3;
+  }
 }
