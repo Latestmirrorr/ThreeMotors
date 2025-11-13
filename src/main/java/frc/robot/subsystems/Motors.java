@@ -79,8 +79,8 @@ public class Motors extends SubsystemBase {
      * 
      * @return The command to run the Neo motor.
      * 
-     * @see runNeo()
-     * @see stopNeo()
+     * @see #runNeo()
+     * @see #stopNeo()
      */
     public Command runNeoCommand() {
         return Commands.runEnd(this::runNeo, () -> stopNeo(), this);
@@ -90,8 +90,8 @@ public class Motors extends SubsystemBase {
      * 
      * @return The command to run the CIM motor.
      * 
-     * @see runCim()
-     * @see stopCim()
+     * @see #runCim()
+     * @see #stopCim()
      */
     public Command runCimCommand() {
         return Commands.runEnd(this::runCim, () -> stopCim(), this);
@@ -101,8 +101,8 @@ public class Motors extends SubsystemBase {
      * 
      * @return The command to run the Falcon motor.
      * 
-     * @see runFalcon()
-     * @see stopFalcon()
+     * @see #runFalcon()
+     * @see #stopFalcon()
      */
     public Command runFalconCommand() {
         return Commands.runEnd(this::runFalcon, () -> stopFalcon(), this);
