@@ -28,6 +28,9 @@ public class Motors extends SubsystemBase {
      */
     TalonFX falconMotor = new TalonFX(falconMotorID);
 
+    /**
+     * Creates a new Motors subsystem instance.
+     */
     public Motors() {
     }
 
