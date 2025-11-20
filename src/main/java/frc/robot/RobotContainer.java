@@ -11,7 +11,6 @@ import edu.wpi.first.wpilibj2.command.WaitCommand;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
 import frc.robot.Constants.OperatorConstants;
-import frc.robot.subsystems.Motors;
 import frc.robot.subsystems.MotorsAdvenced;
 
 /**
@@ -25,7 +24,7 @@ public class RobotContainer {
     private final SendableChooser<String> autoChooser = new SendableChooser<>();
 
   // The robot's subsystems and commands are defined here...
-  private final Motors motors = new Motors();
+  //private final Motors motors = new Motors();
   private final MotorsAdvenced motors2 = new MotorsAdvenced();
 
   // Replace with CommandPS4Controller or CommandJoystick if needed

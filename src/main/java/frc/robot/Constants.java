@@ -23,17 +23,17 @@ public final class Constants {
    */
   public static class MotorIDs {
     /** CIM Motor ID */
-    public static final int cimMotorID = 1;
+    public static final int cimMotorID = 0;
     /** Falcon Motor ID */
-    public static final int falconMotorID = 2;
+    public static final int falconMotorID = 0;
     /** Neo Motor ID */
-    public static final int neoMotorID = 3;
+    public static final int neoMotorID = 0;
     // Advanced Motors IDs
     /** Motor 1 ID */
-    public static final int motor1ID = 4;
+    public static final int motor1ID = 3;
     /** Motor 2 ID */
-    public static final int motor2ID = 5;
+    public static final int motor2ID = 57;
     /** Motor 3 ID */
-    public static final int motor3ID = 6;
+    public static final int motor3ID = 0;
   }
 }
