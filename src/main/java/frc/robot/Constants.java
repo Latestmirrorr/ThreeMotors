@@ -32,8 +32,8 @@ public final class Constants {
     /** Motor 1 ID */
     public static final int motor1ID = 3;
     /** Motor 2 ID */
-    public static final int motor2ID = 57;
+    public static final int motor2ID = 0;
     /** Motor 3 ID */
-    public static final int motor3ID = 0;
+    public static final int motor3ID = 57;
   }
 }
