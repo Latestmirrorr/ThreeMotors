@@ -28,9 +28,12 @@ public final class Constants {
     public static final int falconMotorID = 2;
     /** Neo Motor ID */
     public static final int neoMotorID = 3;
-
+    // Advanced Motors IDs
+    /** Motor 1 ID */
     public static final int motor1ID = 4;
+    /** Motor 2 ID */
     public static final int motor2ID = 5;
+    /** Motor 3 ID */
     public static final int motor3ID = 6;
   }
 }
